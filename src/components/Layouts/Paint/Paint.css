@@ -1,0 +1,15 @@
+.paint {
+  width: 20rem;
+  height: 20rem;
+  border: groove 8px #5d1a02;
+}
+
+.paint > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btnPictures {
+  margin-top: 1rem;
+}
