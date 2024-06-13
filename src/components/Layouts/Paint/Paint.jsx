@@ -1,6 +1,7 @@
 import React from 'react'
 import './Paint.css'
 import { RandomImages } from '../../RandomImages/RandomImages'
+import { NavLink } from 'react-router-dom'
 
 export const Paint = () => {
 
@@ -14,7 +15,8 @@ export const Paint = () => {
 
   return (
     <div className='paint'>
-      <img src="" alt="" />
+      {/* <NavLink to={}></NavLink> */}
+      <img src="https://res.cloudinary.com/erpersonalprojects/image/upload/v1718282311/01_lyqqvq.jpg" alt="" />
       <button className='btnPictures' onClick={handleImages}>Imagen aleatoria</button>
     </div>
   )
