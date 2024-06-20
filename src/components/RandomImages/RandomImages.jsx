@@ -11,4 +11,4 @@ let pictures = [
   'https://res.cloudinary.com/erpersonalprojects/image/upload/v1674503975/cld-sample-4.jpg',
 ]
 
-export const RandomImages = () => pictures
+export const RandomImages = (position) => pictures[position]
